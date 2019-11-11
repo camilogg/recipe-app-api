@@ -2,7 +2,7 @@
 .vscode/
 
 # Migrations
-app/*/migrations/0*.py
+# app/*/migrations/0*.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
