@@ -58,7 +58,7 @@ class ModelTests(TestCase):
 
     def test_ingridient_str(self):
         """Test ingredient string representation"""
-        ingridient = models.Ingridient.objects.create(
+        ingridient = models.Ingredient.objects.create(
             user=sample_user(),
             name='Cucumber'
         )
